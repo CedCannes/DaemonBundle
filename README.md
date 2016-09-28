@@ -8,7 +8,7 @@ Via composer :
 
 ```json
 "require": {
-    "m6web/daemon-bundle":"1.1.*"
+    "m6web/daemon-bundle":"^2.0"
 }
 ```
 
@@ -21,6 +21,8 @@ $bundles = [
     new M6Web\Bundle\DaemonBundle\M6WebDaemonBundle
 ];
 ```
+
+Note: For Symfony 2.3+ support, you can use `"m6web/daemon-bundle":"^1.4"`.
 
 ## Configuration
 
